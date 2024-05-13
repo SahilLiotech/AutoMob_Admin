@@ -1,0 +1,201 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto Condensed', 'sans-serif' !important;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.d-flex.flex-row {
+  flex-wrap: nowrap;
+}
+
+/*********** SideBar *************/
+
+
+.logo-container {
+  color: #fff;
+  font-family: "roboto" !important;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 1.2rem 0;
+}
+
+.logo-img {
+  width: 3rem !important;
+  height: 3rem;
+  margin-right: 0.6rem;
+}
+
+span {
+  color: #436f70;
+}
+
+.navbar {
+  width: 25rem;
+  height: 100%;
+  position: fixed;
+  background-color: #03071e;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+
+.dropdown-menu {
+  background-color: #03071e;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #ffffff26;
+}
+
+
+.active-nav {
+  margin-left: 0;
+}
+
+.active {
+  background-color: #ffffff26 !important;
+}
+
+.active-cont {
+  margin-left: 25rem;
+}
+
+.sidebar {
+  padding: 0;
+}
+
+.sidebar-link {
+  gap: 1.2rem;
+  padding-left: 1.2rem;
+}
+
+a.nav-link {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/****************** DashBoard ***************/
+
+.my-container {
+  transition: 0.4s;
+  margin-left: 25rem;
+  overflow-x: auto;
+}
+
+.card {
+  width: 20rem;
+  height: 10rem;
+  background-color: #03071e;
+}
+
+.card-logo-container {
+  margin: 0 !important;
+}
+
+.card-heading {
+  margin: 0 !important;
+  font-size: 1.8rem;
+}
+
+.card-detail {
+  margin: 0 !important;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.dashboard-row {
+  gap: 2rem;
+  margin: 6.2rem 1.4rem;
+}
+
+/***********  Table **************/
+.my-btn {
+  margin-top: 1.2rem;
+  color: #fff;
+  background-color: #03071e;
+  font-size: 1.4rem;
+}
+
+.my-btn:hover {
+  color: #000;
+  background-color: #66778b;
+  font-weight: bold;
+}
+
+.my-table {
+  font-size: 1.6rem;
+}
+
+.table-container {
+  margin-top: 2.4rem;
+}
+
+table th {
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #03071e;
+  color: #fff;
+}
+
+.text-truncate {
+  max-width: 50rem;
+}
+
+
+.scroll-to-top {
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #66778b;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/********** Modal ***********/
+
+.form {
+  font-size: 1.4rem;
+}
+
+.form input {
+  font-size: 1.4rem;
+}
+
+
+/************ Profile ************/
+
+.profile-form-container {
+  width: 50%;
+  margin: 3.6rem auto;
+  background-color: #03071e;
+  padding: 1.2rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.profile-img img {
+  width: 5rem;
+  border-radius: 50%;
+  background-color: #fff;
+}

@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+
+
+.form-container {
+  width: 30% !important;
+  margin: 3.2rem auto;
+}
+
+.admin-login-form {
+  background-color: #03071e;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.4rem;
+
+}
+
+.admin-login-heading {
+  font-weight: bolder !important;
+}
+
+.admin-login-form input {
+  font-size: inherit;
+}
+
+.admin-login-btn {
+  font-size: 1.4rem !important;
+  padding: 0.4rem 1.6rem !important;
+  margin: 0.6rem 0;
+}
